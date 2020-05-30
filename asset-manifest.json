@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-star-rating-refactor/static/css/main.bfa1c16f.chunk.css",
+    "main.js": "/react-star-rating-refactor/static/js/main.58bac3c8.chunk.js",
+    "main.js.map": "/react-star-rating-refactor/static/js/main.58bac3c8.chunk.js.map",
+    "runtime-main.js": "/react-star-rating-refactor/static/js/runtime-main.1cc7bff4.js",
+    "runtime-main.js.map": "/react-star-rating-refactor/static/js/runtime-main.1cc7bff4.js.map",
+    "static/js/2.ce02ba1e.chunk.js": "/react-star-rating-refactor/static/js/2.ce02ba1e.chunk.js",
+    "static/js/2.ce02ba1e.chunk.js.map": "/react-star-rating-refactor/static/js/2.ce02ba1e.chunk.js.map",
+    "index.html": "/react-star-rating-refactor/index.html",
+    "precache-manifest.4c3e543dfa7167c9d37ef7c28afa7471.js": "/react-star-rating-refactor/precache-manifest.4c3e543dfa7167c9d37ef7c28afa7471.js",
+    "service-worker.js": "/react-star-rating-refactor/service-worker.js",
+    "static/css/main.bfa1c16f.chunk.css.map": "/react-star-rating-refactor/static/css/main.bfa1c16f.chunk.css.map",
+    "static/js/2.ce02ba1e.chunk.js.LICENSE.txt": "/react-star-rating-refactor/static/js/2.ce02ba1e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cc7bff4.js",
+    "static/js/2.ce02ba1e.chunk.js",
+    "static/css/main.bfa1c16f.chunk.css",
+    "static/js/main.58bac3c8.chunk.js"
+  ]
+}
