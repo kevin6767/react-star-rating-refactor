@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Rater from "./Rater";
 
 function App() {
   return (
     <div className="App">
-     <h2> Hello World </h2>
+     <Rater />
     </div>
   );
 }
