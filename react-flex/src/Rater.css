@@ -1,8 +1,16 @@
 input[type='radio'] {
-    display: none
+    display: none;
+    margin: 5px;
 }
 
 .star {
     cursor: pointer;
     transition: color 200ms;
+    /*transform: rotate(180deg);*/
 }
+.star-left {
+    cursor: pointer;
+    transition: color 200ms;
+    transform: scaleX(-1);
+}
+

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {FaStar} from "react-icons/all";
+import {FaStarHalf} from "react-icons/all";
 import './Rater.css'
 
 
@@ -30,19 +30,44 @@ const Rater = () => {
                                name='rating'
                                value={value}
                                onClick={() => setRating(value)}
+
+
                         />
-                        <FaStar
-                                className='star'
-                                color={value <= (hover || rating) ? '#ffc107' : '#e4e5e9'}
-                                size={100}
-                                onMouseEnter={() => setHover(value)}
-                                onMouseLeave={() => setHover(null)}
+                        <FaStarHalf
+                        className='star'
+                        color={value <= (hover || rating) ? '#ffc107' : '#e4e5e9'}
+                        size={100}
+                        onMouseEnter={() => setHover(value)}
+                        onMouseLeave={() => setHover(null)}
+                    />
+                    </label>
+                )
+            })}
+            {[... Array(iconValue)].map((icon, i) => {
+                const value = i + 1
+
+                return (
+                    <label>
+                        <input type='radio'
+                               name='rating'
+                               value={value}
+                               onClick={() => setRating(value)}
+
+
+                        />
+                        <FaStarHalf
+                            className='star-left'
+                            color={value <= (hover || rating) ? '#ffc107' : '#e4e5e9'}
+                            size={100}
+                            onMouseEnter={() => setHover(value)}
+                            onMouseLeave={() => setHover(null)}
                         />
                     </label>
                 )
             })}
         </div>
     )
+
 }
 
 export default Rater
