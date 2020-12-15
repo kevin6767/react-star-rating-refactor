@@ -1,16 +1,23 @@
 input[type='radio'] {
     display: none;
-    margin: 5px;
+}
+
+
+.star-container {
+    cursor: pointer;
+    display: inline-block;
+    height: 2rem;
+    width: 1rem;
+    overflow: hidden;
 }
 
 .star {
-    cursor: pointer;
-    transition: color 200ms;
-    /*transform: rotate(180deg);*/
-}
-.star-left {
-    cursor: pointer;
-    transition: color 200ms;
-    transform: scaleX(-1);
+    height: 2rem;
+    width: 2rem;
 }
 
+.star-left {
+    height: 2rem;
+    width: 2rem;
+    transform: scaleX(-1) translateX(50%);
+}
